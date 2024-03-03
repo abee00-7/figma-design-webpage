@@ -1,0 +1,486 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Custom CSS to reduce the size of the button */
+.navbar .btn {
+    font-size: 0.8rem; /* Adjust the font size as needed */
+    padding: 0.2rem 0.5rem; /* Adjust padding as needed */
+}
+/* Navbar Styles */
+.navbar {
+    background-color:lightslategrey;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 1em;
+}
+
+
+.overlay-content {
+    position: absolute;
+    top: 60%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.overlay-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.overlay-content button {
+    font-size: 1em;
+    padding: 10px 20px;
+}
+
+/* Home Section Styles */
+.home-section {
+    text-align: center;
+    position: relative;
+}
+
+.home-section img {
+    width: 100%;
+    height: auto;
+}
+
+/* Responsive Cards Styles */
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1em;
+    background-color: lightcoral;
+}
+
+.card {
+    width: 20%;
+    margin-bottom: 1em;
+
+}
+
+.card img {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+
+/* Responsive Two-Column Section Styles */
+.two-column-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.column {
+width: 100%;
+height: 10%;
+
+}
+
+.column img {
+    width: 75%;
+    height: 60%;
+    border-radius: 50px;
+
+}
+/* Add this style for the Responsive Image Section */
+
+/* Responsive Image Section Styles */
+.responsive-image-section {
+    text-align: center;
+    padding: 1em;
+}
+
+.responsive-image-section img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Maintain aspect ratio */
+}
+/* Add this style for the Two-Column Text Section */
+
+/* Responsive Two-Column Text Section Styles */
+.two-column-text-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.column-text {
+    width: 45%;
+}
+
+.column-text p {
+    margin: 0; /* Remove default paragraph margin for better spacing */
+}
+/* Update this style for the Two-Column Content Section */
+
+/* Two-Column Content Section Styles */
+.two-column-content-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Ensure content wraps to the next line if the screen is too small */
+    padding: 1em;
+}
+
+.column-content {
+    width: 45%;
+    text-align: center; /* Center text within each column */
+    margin-bottom: 1em; /* Add spacing between the two columns */
+}
+
+.column-content h3 {
+    font-size: 1.2em;
+}
+
+.column-content h2 {
+    font-size: 1.5em;
+}
+
+.column-content p {
+    margin: 0.5em 0;
+}
+
+.column-content button {
+    padding: 0.3em 0.8em; /* Adjust button size as needed */
+    margin-top: 1em;
+}
+
+.column-content .images-container {
+    display: flex;
+    justify-content: center; /* Center images within the container */
+}
+
+.column-content img {
+    width: 80px; /* Adjust small image size as needed */
+    height: 80px; /* Adjust small image size as needed */
+    margin-right: 3em; /* Add spacing between the small images */
+}
+
+.column-content img.large-image {
+    width: 270px; /* Adjust large image size as needed (larger than small images) */
+    height: 300px; /* Adjust large image size as needed (larger than small images) */
+}
+/* Add this style for the Full-Width Two-Image Section */
+
+/* Full-Width Two-Image Section Styles */
+.full-width-two-image-section {
+    text-align: center;
+    padding: 1em;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container img {
+    width: 50%; /* Each image takes up 48% to leave some spacing between them */
+    height: auto;
+}
+
+/* Update this style for the Packages Section */
+
+/* Packages Section Styles */
+.packages-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Ensure content wraps to the next line if the screen is too small */
+    padding: 1em;
+}
+
+.package {
+    width: 30%;
+    text-align: center;
+}
+
+.package img {
+    width: 40%;
+    height: auto;
+}
+
+.package h3 {
+    font-size: 1.2em;
+}
+
+.package p {
+    margin: 0.5em 0;
+    font-size: 10px;
+}
+
+.package button {
+    padding: 0.3em 0.8em;
+    margin-top: 1em;
+}
+/* Update this style for the Promotion Section */
+
+/* Promotion Section Styles */
+.promotion-section {
+    background: url('./div.png') center/cover fixed; /* Update background properties */
+    height: ;
+    text-align: center;
+    color: white;
+    padding: 2em;
+}
+
+.promotion-container {
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+.content-box{
+    background: lightgray; /* Adjust background color and opacity as needed */
+    border-radius: 10px; /* Add rounded corners to the box */
+    max-width: 300px; /* Adjust the max-width to reduce the width of the content box */
+    margin: 0 auto;
+    
+
+}
+
+.promotion-container h3 {
+    font-size: 1.2em;
+}
+
+.promotion-container h2 {
+    font-size: 1.5em;
+}
+
+.circle-images {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.circle-images img {
+    width: 50px; /* Adjust image size as needed */
+    height: 50px; /* Adjust image size as needed */
+    border-radius: 50%; /* Create a circular shape */
+    margin: 0 0.5em; /* Add spacing between the circular images */
+}
+
+.promotion-container p {
+    margin: 1em 0;
+    font-size: 10px
+}
+/* Update this style for the Footer Section */
+
+/* Footer Section Styles */
+.footer-section {
+    background:url(./Footer\ img.png);
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Align items to the top */
+    flex-wrap: wrap; /* Allow wrapping if screen size is too small */
+}
+
+.footer-column {
+    width: 12%;
+    text-align: center;
+    margin-bottom: 1em;
+ margin-left: 10px;
+}
+
+.subscribe-column {
+    width: 40%; /* Full width for the last column */
+}
+
+.subscribe-column h4 {
+    margin-bottom: 0.5em;
+}
+
+.subscribe-column input {
+    padding: 0.5em;
+    width: 40%; /* Adjust the width of the email input box */
+}
+
+.subscribe-column button {
+    padding: 0.5em 1em;
+}
+/* Footer Styles */
+.footer {
+    background-color:whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
+@media (max-width:992px){
+    .header{
+        padding: 1.3rem 5%;
+    }
+}
+@media (max-width:768px){
+    .
+    
+    .cards-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+    
+    .card {
+        width: 23%;
+        margin-bottom: 1em;
+    }
+    
+    .card img {
+        width: 40%;
+        height: auto;
+    }
+
+    /* Home Section Styles */
+    .home-section {
+        text-align: center;
+    }
+    .navbar {
+        background-color:lightslategrey;
+        padding: 1em;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    .navbar a {
+        text-decoration: none;
+        color: white;
+        margin: 0 1em;
+    }
+    
+    .home-section img {
+        width: 100%;
+        height: auto;
+    }
+    .footer-section {
+        background:url(./Footer\ img.png);
+        color: white;
+        padding: 1em;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start; /* Align items to the top */
+        flex-wrap: wrap; /* Allow wrapping if screen size is too small */
+    }
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    .footer-column {
+        width: 12%;
+        text-align: center;
+        margin-bottom: 1em;
+     margin-left: 10px;
+    }
+    .footer-column h4{
+        font-size: 10px;
+    }
+    .footer-column p{
+        font-size: 10px;
+    }
+    
+    .subscribe-column {
+        width: 40%; /* Full width for the last column */
+    }
+    
+    .subscribe-column h4 {
+        margin-bottom: 0.5em;
+        font-size: 10px;
+    }
+    
+    .subscribe-column input {
+        padding: 0.5em;
+        width: 20%; /* Adjust the width of the email input box */
+    }
+    
+    .subscribe-column button {
+        padding: 0.5em 1em;
+        size: 10px;
+    }
+    /* Footer Styles */
+    .footer {
+        background-color:whitesmoke;
+        color: black;
+        text-align: center;
+        padding: 1em;
+    }
+    
+.column-content .images-container {
+    display: flex;
+    justify-content: center; /* Center images within the container */
+}
+
+.column-content img {
+    width: 30px; /* Adjust small image size as needed */
+    height: 40px; /* Adjust small image size as needed */
+    margin-right: 3em; /* Add spacing between the small images */
+    display: inline;
+}
+.column-content p{
+    font-size: 10px;
+
+}
+.column-content h3{
+    font-size: 15px;
+
+}
+.column-content h2{
+    font-size: 18px;
+}
+.column-content img.large-image {
+    width: 100px; /* Adjust large image size as needed (larger than small images) */
+    height: 200px; /* Adjust large image size as needed (larger than small images) */
+}
+
+.overlay-content {
+    position: absolute;
+    top: 60%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.overlay-content h2 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.overlay-content button {
+    font-size: .5em;
+    padding: 10px 20px;
+}
+
+
+    
+}
+    
